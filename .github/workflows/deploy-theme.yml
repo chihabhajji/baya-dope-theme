@@ -5,9 +5,9 @@ on:
     branches:
       - main
 jobs:
-  environment: prod
   deploy:
     runs-on: ubuntu-22.04
+    environment: prod
     steps:
       - uses: actions/checkout@v2
       - name: Deploy Ghost Theme
