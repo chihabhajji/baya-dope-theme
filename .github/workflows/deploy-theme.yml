@@ -13,5 +13,5 @@ jobs:
         uses: TryGhost/action-deploy-theme@v1.5.0
         with:
           theme-name: baya-dope
-          api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
+          api-url: https://ghost-production-8882.up.railway.app
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
